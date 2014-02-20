@@ -1,0 +1,164 @@
+/* Global */
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: Rufina;
+  font-weight: bold;
+  color: rgb(26,35,109);
+  font-size: 3.5em;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: Rufina;
+  font-size: 2em;
+  color: rgb(26,35,109);
+}
+
+
+.hero {
+  /*background: url(http://news.byu.edu/releases/archive11/Apr/vocalpoint20/vocalpoint1.jpg);*/
+  background-size: cover;
+  /*height: 100%;*/
+  position: relative;
+/*  max-height: 500px;
+  max-width: 100%;*/
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+
+
+
+
+/* Navbar */
+nav {
+  width: 100%;
+
+}
+
+nav ul {
+  margin: 0 auto;
+  width: 220px;
+  overflow: auto;
+}
+
+nav li {
+  float: left;
+  font-family: Sintony;
+  margin-left: 10px;
+}
+
+nav a {
+  color: rgb(91,47,30);
+}
+
+
+
+/* Contact */
+.contact {
+  margin-top: 1em;
+  text-align: center;
+  font-family: Sintony;
+  font-weight: bold;
+}
+
+
+
+
+/* Shows */
+.shows {
+  font-family: Sintony;
+}
+.shows h3, p {
+  margin: 0;
+  text-align: left;
+}
+
+
+.shows li {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+
+/* Listen */
+.listen {
+  width: 100%;
+  overflow: auto;
+}
+.video {
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Members */
+
+.members {
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: Sintony;
+}
+
+.member {
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+
+.member img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.member .text {
+  padding: 20px;
+}
+
+.members h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Footer */
+footer {
+  height: 2em;
+  background: rgb(91,47,30);
+}
+
